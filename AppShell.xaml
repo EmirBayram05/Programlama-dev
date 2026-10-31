@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiCalculator.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiCalculator"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Hesap Makinesi">
+
+    <FlyoutItem Title="Standart" Route="StandardPage">
+        <ShellContent ContentTemplate="{DataTemplate local:StandardPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Bilimsel" Route="ScientificPage">
+        <ShellContent ContentTemplate="{DataTemplate local:ScientificPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Ayarlar (Settings)" Route="SettingsPage">
+        <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
+    </FlyoutItem>
+
+</Shell>

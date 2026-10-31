@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-compilersource file="Resources/Styles/Colors.xaml" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Açık (Light) Tema Renkleri -->
+    <Color x:Key="BgColorLight">#F3F3F3</Color>
+    <Color x:Key="TextPrimaryLight">#000000</Color>
+    <Color x:Key="TextSecondaryLight">#5E5E5E</Color>
+    <Color x:Key="NumberBtnBgLight">#FFFFFF</Color>
+    <Color x:Key="OperatorBtnBgLight">#F9F9F9</Color>
+    <Color x:Key="AccentColorLight">#0067C0</Color>
+    <Color x:Key="AccentTextLight">#FFFFFF</Color>
+    <Color x:Key="BorderColorLight">#E5E5E5</Color>
+    <Color x:Key="CardBgLight">#FFFFFF</Color>
+
+    <!-- Koyu (Dark) Tema Renkleri -->
+    <Color x:Key="BgColorDark">#202020</Color>
+    <Color x:Key="TextPrimaryDark">#FFFFFF</Color>
+    <Color x:Key="TextSecondaryDark">#A6A6A6</Color>
+    <Color x:Key="NumberBtnBgDark">#3B3B3B</Color>
+    <Color x:Key="OperatorBtnBgDark">#323232</Color>
+    <Color x:Key="AccentColorDark">#4CC2FF</Color>
+    <Color x:Key="AccentTextDark">#000000</Color>
+    <Color x:Key="BorderColorDark">#383838</Color>
+    <Color x:Key="CardBgDark">#2B2B2B</Color>
+
+</ResourceDictionary>
